@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8fdb617-270a-45e8-83b7-5e05f8a25c2f" name="Default Changelist" comment="" />
+    <list default="true" id="c8fdb617-270a-45e8-83b7-5e05f8a25c2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../logs/error-log.html" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/error-log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/jeecgboot.2019-04-23.html" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/jeecgboot.2019-04-23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../logs/jeecgboot.2019-04-23.log" beforeDir="false" afterPath="$PROJECT_DIR$/../logs/jeecgboot.2019-04-23.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/- 项目说明" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/db/jeecg-boot_1.1.0-20190415.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rr-font/src/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/../rr-font/src/assets/logo.png" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
@@ -47,79 +59,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="44">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/demo1.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/static/view/userlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2213" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo3.ftl">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/onl_cgreport_head">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/onl_cgreport_item">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/onl_cgreport_param">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/order_item">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/order_state_enum">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/qrtz_calendars">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/sys_user">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -159,7 +125,6 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f4f8aa4c-b6d9-4e4d-ab0b-bb18aee34371/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/console.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/jeecg/jeecg_database.properties" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/service/collector/entity/OrderItem.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/service/collector/vo/CollectorPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/service/collector/service/ICollectorService.java" />
@@ -173,6 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysDictController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
       </list>
     </option>
   </component>
@@ -408,18 +374,7 @@
               <item name="rr-dep" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rr-dep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rr-dep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jeecg" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -543,18 +498,17 @@
       <workItem from="1555840073789" duration="71000" />
       <workItem from="1555840166625" duration="17048000" />
       <workItem from="1555930113435" duration="15586000" />
-      <workItem from="1555950212448" duration="684000" />
+      <workItem from="1555950212448" duration="4044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33688000" />
+    <option name="totallyTimeSpent" value="37048000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -564,7 +518,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32952183" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -598,42 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/garbage">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/garbage_type">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/demo">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/addr_detail">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/company">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/JeecgOneToMainUtil.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/service/company/controller/CompanyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4048">
@@ -914,7 +832,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/order_state_enum">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysDictController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/schema-mysql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/demo1.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/view/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2213" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/demo3.ftl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/data-mysql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/demo">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/sys_user">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
@@ -928,24 +884,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/sys_user">
+    <entry file="das://3b43b739-6f40-4b8b-8b2d-64c2d6c8e6b0/schema/rr2/table/order_state_enum">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/jeecg/modules/system/controller/SysDictController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
         </state>
       </provider>
     </entry>

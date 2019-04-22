@@ -2,8 +2,8 @@
   <div class="page-header-index-wide">
     <a-row :gutter="24">
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
-        <chart-card :loading="loading" title="总销售额" total="￥126,560">
-          <a-tooltip title="指标说明" slot="action">
+        <chart-card :loading="loading" title="总回收资源价值" total="￥126,560">
+          <a-tooltip title="一个月平台回收资源价值" slot="action">
             <a-icon type="info-circle-o" />
           </a-tooltip>
           <div>
@@ -16,12 +16,12 @@
               11%
             </trend>
           </div>
-          <template slot="footer">日均销售额<span>￥ 234.56</span></template>
+          <template slot="footer">日均回收价值<span>￥ 234.56</span></template>
         </chart-card>
       </a-col>
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
         <chart-card :loading="loading" title="访问量" :total="8846 | NumberFormat">
-          <a-tooltip title="指标说明" slot="action">
+          <a-tooltip title="系统访问数量" slot="action">
             <a-icon type="info-circle-o" />
           </a-tooltip>
           <div>
@@ -31,8 +31,8 @@
         </chart-card>
       </a-col>
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
-        <chart-card :loading="loading" title="支付笔数" :total="6560 | NumberFormat">
-          <a-tooltip title="指标说明" slot="action">
+        <chart-card :loading="loading" title="完成订单" :total="6560 | NumberFormat">
+          <a-tooltip title="完成订单数量" slot="action">
             <a-icon type="info-circle-o" />
           </a-tooltip>
           <div>
@@ -42,8 +42,8 @@
         </chart-card>
       </a-col>
       <a-col :sm="24" :md="12" :xl="6" :style="{ marginBottom: '24px' }">
-        <chart-card :loading="loading" title="运营活动效果" total="78%">
-          <a-tooltip title="指标说明" slot="action">
+        <chart-card :loading="loading" title="用户满意度" total="78%">
+          <a-tooltip title="统计用户对订单完成过程满意度" slot="action">
             <a-icon type="info-circle-o" />
           </a-tooltip>
           <div>
@@ -75,23 +75,23 @@
             </div>
             <a-range-picker :style="{width: '256px'}" />
           </div>
-          <a-tab-pane loading="true" tab="销售额" key="1">
+          <a-tab-pane loading="true" tab="回收价值排行" key="1">
             <a-row>
               <a-col :xl="16" :lg="12" :md="12" :sm="24" :xs="24">
-                <bar title="销售额排行" :dataSource="barData"/>
+                <bar title="回收价值排行" :dataSource="barData"/>
               </a-col>
               <a-col :xl="8" :lg="12" :md="12" :sm="24" :xs="24">
-                <rank-list title="门店销售排行榜" :list="rankList"/>
+                <rank-list title="回收站回收价值排行榜" :list="rankList"/>
               </a-col>
             </a-row>
           </a-tab-pane>
-          <a-tab-pane tab="访问量" key="2">
+          <a-tab-pane tab="回收价值趋势" key="2">
             <a-row>
               <a-col :xl="16" :lg="12" :md="12" :sm="24" :xs="24">
-                <bar title="销售额趋势" :dataSource="barData"/>
+                <bar title="回收价值趋势" :dataSource="barData"/>
               </a-col>
               <a-col :xl="8" :lg="12" :md="12" :sm="24" :xs="24">
-                <rank-list title="门店销售排行榜" :list="rankList"/>
+                <rank-list title="回收价值排行榜" :list="rankList"/>
               </a-col>
             </a-row>
           </a-tab-pane>
@@ -108,10 +108,10 @@
             </a>
             <a-menu slot="overlay">
               <a-menu-item>
-                <a href="javascript:;">操作一</a>
+                <a href="javascript:;">刷新</a>
               </a-menu-item>
               <a-menu-item>
-                <a href="javascript:;">操作二</a>
+                <a href="javascript:;">查看日志</a>
               </a-menu-item>
             </a-menu>
           </a-dropdown>
@@ -140,24 +140,6 @@
         </a-card>
       </a-col>
       <a-col :xl="12" :lg="24" :md="24" :sm="24" :xs="24">
-        <a-card :loading="loading" :bordered="false" title="销售额类别占比" :style="{ marginTop: '24px' }">
-          <a-dropdown :trigger="['click']" placement="bottomLeft" slot="extra">
-            <a class="ant-dropdown-link" href="#">
-              <a-icon type="ellipsis" />
-            </a>
-            <a-menu slot="overlay">
-              <a-menu-item>
-                <a href="javascript:;">操作一</a>
-              </a-menu-item>
-              <a-menu-item>
-                <a href="javascript:;">操作二</a>
-              </a-menu-item>
-            </a-menu>
-          </a-dropdown>
-          <p>card content</p>
-          <p>card content</p>
-          <p>card content</p>
-        </a-card>
       </a-col>
     </a-row>
   </div>
@@ -178,7 +160,7 @@
   const rankList = []
   for (let i = 0; i < 7; i++) {
     rankList.push({
-      name: '白鹭岛 ' + (i+1) + ' 号店',
+      name: '东较场回收' + (i+1) + ' 号站',
       total: 1234.56 - i * 100
     })
   }

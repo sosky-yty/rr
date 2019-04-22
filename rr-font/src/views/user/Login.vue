@@ -10,7 +10,7 @@
           <a-form-item
             fieldDecoratorId="username"
             :fieldDecoratorOptions="{rules: [{ required: true, message: '请输入帐户名或邮箱' }, { validator: this.handleUsernameOrEmail }], validateTrigger: 'change'}">
-            <a-input size="large" type="text" placeholder="请输入帐户名 / jeecg">
+            <a-input size="large" type="text" placeholder="请输入帐户名 / xiaoming">
               <a-icon slot="prefix" type="user" :style="{ color: 'rgba(0,0,0,.25)' }"/>
             </a-input>
           </a-form-item>
