@@ -1,0 +1,3404 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Apr 23 00:23:57 CST 2019</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Level">Level</td>
+<td class="Date">Date</td>
+<td class="Message">Message</td>
+<td class="MethodOfCaller">MethodOfCaller</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:57,834</td>
+<td class="Message">Starting MyApplication on DESKTOP-ACB95GJ with PID 13444 (C:\Users\10277\Desktop\rr\rr-dep\target\classes started by 10277 in C:\Users\10277\Desktop\rr\rr-dep)</td>
+<td class="MethodOfCaller">logStarting</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">50</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:57,838</td>
+<td class="Message">The following profiles are active: dev</td>
+<td class="MethodOfCaller">logStartupProfileInfo</td>
+<td class="FileOfCaller">SpringApplication.java</td>
+<td class="LineOfCaller">663</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:57,875</td>
+<td class="Message">Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cebbb30: startup date [Tue Apr 23 00:23:57 CST 2019]; root of context hierarchy</td>
+<td class="MethodOfCaller">prepareRefresh</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">590</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,347</td>
+<td class="Message">Multiple Spring Data modules found, entering strict repository configuration mode!</td>
+<td class="MethodOfCaller">multipleStoresDetected</td>
+<td class="FileOfCaller">RepositoryConfigurationDelegate.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,728</td>
+<td class="Message">Bean &#39;shiroConfig&#39; of type [org.jeecg.config.ShiroConfig$$EnhancerBySpringCGLIB$$1ca24da8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,853</td>
+<td class="Message">Bean &#39;org.springframework.boot.context.properties.ConversionServiceDeducer$Factory&#39; of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,862</td>
+<td class="Message">Bean &#39;mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties&#39; of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,871</td>
+<td class="Message">Bean &#39;mybatisInterceptor&#39; of type [org.jeecg.config.mybatis.MybatisInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,880</td>
+<td class="Message">Bean &#39;mybatisPlusConfig&#39; of type [org.jeecg.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$4c54c1c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,892</td>
+<td class="Message">Bean &#39;paginationInterceptor&#39; of type [com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,904</td>
+<td class="Message">Bean &#39;com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration&#39; of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$3a6550ac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,946</td>
+<td class="Message">Bean &#39;spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,953</td>
+<td class="Message">Bean &#39;com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration&#39; of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$662b54e3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,970</td>
+<td class="Message">动态数据源-检测到druid存在,如配置中未指定type,druid会默认配置</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">DynamicDataSourceCreator.java</td>
+<td class="LineOfCaller">101</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,972</td>
+<td class="Message">Bean &#39;dynamicDataSourceCreator&#39; of type [com.baomidou.dynamic.datasource.DynamicDataSourceCreator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:23:59,976</td>
+<td class="Message">Bean &#39;dynamicDataSourceProvider&#39; of type [com.baomidou.dynamic.datasource.provider.YmlDynamicDataSourceProvider] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:00,530</td>
+<td class="Message">{dataSource-1,master} inited</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DruidDataSource.java</td>
+<td class="LineOfCaller">930</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:00,530</td>
+<td class="Message">初始共加载 1 个数据源</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">153</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:00,532</td>
+<td class="Message">动态数据源-加载 master 成功</td>
+<td class="MethodOfCaller">addDataSource</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">127</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:00,532</td>
+<td class="Message">当前的默认数据源是单数据源，数据源名为 master</td>
+<td class="MethodOfCaller">init</td>
+<td class="FileOfCaller">DynamicRoutingDataSource.java</td>
+<td class="LineOfCaller">162</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:00,537</td>
+<td class="Message">Bean &#39;dataSource&#39; of type [com.baomidou.dynamic.datasource.DynamicRoutingDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,451</td>
+<td class="Message">Bean &#39;sqlSessionFactory&#39; of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,465</td>
+<td class="Message">Bean &#39;sqlSessionTemplate&#39; of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,466</td>
+<td class="Message">Bean &#39;sysPermissionMapper&#39; of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,473</td>
+<td class="Message">Bean &#39;sysPermissionMapper&#39; of type [com.sun.proxy.$Proxy96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,486</td>
+<td class="Message">Bean &#39;sysPermissionDataRuleMapper&#39; of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,487</td>
+<td class="Message">Bean &#39;sysPermissionDataRuleMapper&#39; of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,489</td>
+<td class="Message">Bean &#39;sysPermissionDataRuleImpl&#39; of type [org.jeecg.modules.system.service.impl.SysPermissionDataRuleImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,491</td>
+<td class="Message">Bean &#39;sysPermissionServiceImpl&#39; of type [org.jeecg.modules.system.service.impl.SysPermissionServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,500</td>
+<td class="Message">Bean &#39;sysUserMapper&#39; of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,501</td>
+<td class="Message">Bean &#39;sysUserMapper&#39; of type [com.sun.proxy.$Proxy99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,522</td>
+<td class="Message">Bean &#39;sysUserRoleMapper&#39; of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,529</td>
+<td class="Message">Bean &#39;sysUserRoleMapper&#39; of type [com.sun.proxy.$Proxy100] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,533</td>
+<td class="Message">Bean &#39;sysDepartMapper&#39; of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,534</td>
+<td class="Message">Bean &#39;sysDepartMapper&#39; of type [com.sun.proxy.$Proxy101] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,534</td>
+<td class="Message">Bean &#39;sysUserServiceImpl&#39; of type [org.jeecg.modules.system.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,538</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration$$EnhancerBySpringCGLIB$$f2340f4e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,550</td>
+<td class="Message">Bean &#39;spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties&#39; of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,558</td>
+<td class="Message">Bean &#39;org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration&#39; of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$11b6a25c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,637</td>
+<td class="Message">Bean &#39;lettuceClientResources&#39; of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,706</td>
+<td class="Message">Bean &#39;redisConnectionFactory&#39; of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,731</td>
+<td class="Message">Bean &#39;stringRedisTemplate&#39; of type [org.springframework.data.redis.core.StringRedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,742</td>
+<td class="Message">Bean &#39;redisConfig&#39; of type [org.jeecg.config.RedisConfig$$EnhancerBySpringCGLIB$$6770d4f2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,752</td>
+<td class="Message">Bean &#39;redisTemplate&#39; of type [org.springframework.data.redis.core.RedisTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,754</td>
+<td class="Message">Bean &#39;redisUtil&#39; of type [org.jeecg.common.util.RedisUtil] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,755</td>
+<td class="Message">Bean &#39;myRealm&#39; of type [org.jeecg.modules.shiro.authc.MyRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,779</td>
+<td class="Message">Bean &#39;securityManager&#39; of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,827</td>
+<td class="Message">Bean &#39;authorizationAttributeSourceAdvisor&#39; of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:01,888</td>
+<td class="Message">Bean &#39;org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration&#39; of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fc9ce412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,017</td>
+<td class="Message">Bean &#39;dsProcessor&#39; of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,027</td>
+<td class="Message">Bean &#39;dynamicDatasourceAnnotationAdvisor&#39; of type [com.baomidou.dynamic.datasource.aop.DynamicDataSourceAnnotationAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,036</td>
+<td class="Message">Bean &#39;cacheManager&#39; of type [org.springframework.cache.support.SimpleCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,043</td>
+<td class="Message">Bean &#39;keyGenerator&#39; of type [org.jeecg.config.RedisConfig$1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,105</td>
+<td class="Message">Bean &#39;org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration&#39; of type [org.apache.shiro.spring.boot.autoconfigure.ShiroBeanAutoConfiguration$$EnhancerBySpringCGLIB$$fb5c1c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,112</td>
+<td class="Message">Bean &#39;eventBus&#39; of type [org.apache.shiro.event.support.DefaultEventBus] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)</td>
+<td class="MethodOfCaller">postProcessAfterInitialization</td>
+<td class="FileOfCaller">PostProcessorRegistrationDelegate.java</td>
+<td class="LineOfCaller">328</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,414</td>
+<td class="Message">Tomcat initialized with port(s): 8080 (http)</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">91</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,425</td>
+<td class="Message">Initializing ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,435</td>
+<td class="Message">Starting service [Tomcat]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,436</td>
+<td class="Message">Starting Servlet Engine: Apache Tomcat/8.5.31</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,440</td>
+<td class="Message">The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_201\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Redis\;C:\Users\10277\AppData\Local\Microsoft\WindowsApps;C:\Users\10277\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2019.1\bin;;C:\Users\10277\flutter\bin;C:\Users\10277\AppData\Roaming\npm;.]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,547</td>
+<td class="Message">Initializing Spring embedded WebApplicationContext</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:02,547</td>
+<td class="Message">Root WebApplicationContext: initialization completed in 4672 ms</td>
+<td class="MethodOfCaller">prepareWebApplicationContext</td>
+<td class="FileOfCaller">ServletWebServerApplicationContext.java</td>
+<td class="LineOfCaller">285</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,596</td>
+<td class="Message">Servlet dispatcherServlet mapped to [/]</td>
+<td class="MethodOfCaller">addRegistration</td>
+<td class="FileOfCaller">ServletRegistrationBean.java</td>
+<td class="LineOfCaller">186</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,606</td>
+<td class="Message">Servlet statViewServlet mapped to [/druid/*]</td>
+<td class="MethodOfCaller">addRegistration</td>
+<td class="FileOfCaller">ServletRegistrationBean.java</td>
+<td class="LineOfCaller">186</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,615</td>
+<td class="Message">Mapping filter: &#39;characterEncodingFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,616</td>
+<td class="Message">Mapping filter: &#39;hiddenHttpMethodFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,616</td>
+<td class="Message">Mapping filter: &#39;httpPutFormContentFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,616</td>
+<td class="Message">Mapping filter: &#39;requestContextFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,617</td>
+<td class="Message">Mapping filter: &#39;httpTraceFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,617</td>
+<td class="Message">Mapping filter: &#39;webStatFilter&#39; to urls: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">258</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,617</td>
+<td class="Message">Mapping filter: &#39;webMvcMetricsFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,618</td>
+<td class="Message">Mapping filter: &#39;shiroFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:03,624</td>
+<td class="Message">Mapping filter: &#39;corsFilter&#39; to: [/*]</td>
+<td class="MethodOfCaller">configure</td>
+<td class="FileOfCaller">AbstractFilterRegistrationBean.java</td>
+<td class="LineOfCaller">245</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,483</td>
+<td class="Message">Using default implementation for ThreadExecutor</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1208</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,498</td>
+<td class="Message">Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">SchedulerSignalerImpl.java</td>
+<td class="LineOfCaller">61</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,499</td>
+<td class="Message">Quartz Scheduler v.2.3.0 created.</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">229</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,507</td>
+<td class="Message">Using db table-based data access locking (synchronization).</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">672</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,509</td>
+<td class="Message">JobStoreCMT initialized.</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">JobStoreCMT.java</td>
+<td class="LineOfCaller">145</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,510</td>
+<td class="Message">Scheduler meta-data: Quartz Scheduler (v2.3.0) &#39;quartzScheduler&#39; with instanceId &#39;NON_CLUSTERED&#39;
+  Scheduler class: &#39;org.quartz.core.QuartzScheduler&#39; - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool &#39;org.quartz.simpl.SimpleThreadPool&#39; - with 10 threads.
+  Using job-store &#39;org.springframework.scheduling.quartz.LocalDataSourceJobStore&#39; - which supports persistence. and is not clustered.
+</td>
+<td class="MethodOfCaller">initialize</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">294</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,510</td>
+<td class="Message">Quartz scheduler &#39;quartzScheduler&#39; initialized from an externally provided properties instance.</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1362</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,516</td>
+<td class="Message">Quartz scheduler version: 2.3.0</td>
+<td class="MethodOfCaller">instantiate</td>
+<td class="FileOfCaller">StdSchedulerFactory.java</td>
+<td class="LineOfCaller">1366</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:04,516</td>
+<td class="Message">JobFactory set to: org.springframework.boot.autoconfigure.quartz.AutowireCapableBeanJobFactory@18989e0</td>
+<td class="MethodOfCaller">setJobFactory</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">2287</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,119</td>
+<td class="Message">Mapped &quot;{[/sys/common/view/**],methods=[GET]}&quot; onto public void org.jeecg.common.system.controller.CommonController.view(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,126</td>
+<td class="Message">Mapped &quot;{[/sys/common/upload],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.common.system.controller.CommonController.upload(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,138</td>
+<td class="Message">Mapped &quot;{[/api/user/info],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.userInfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,138</td>
+<td class="Message">Mapped &quot;{[/api/permission],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.permission()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,139</td>
+<td class="Message">Mapped &quot;{[/api/role],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.role()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,139</td>
+<td class="Message">Mapped &quot;{[/api/user],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.user()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,145</td>
+<td class="Message">Mapped &quot;{[/api/service],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.service()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,146</td>
+<td class="Message">Mapped &quot;{[/api/json/{filename}],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.getJsonData(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,146</td>
+<td class="Message">Mapped &quot;{[/api/workplace/teams],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.teams()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,147</td>
+<td class="Message">Mapped &quot;{[/api/area],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.area()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,147</td>
+<td class="Message">Mapped &quot;{[/api/list/search/projects],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.projects()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,148</td>
+<td class="Message">Mapped &quot;{[/api/report/getYearCountInfo],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.getYearCountInfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,148</td>
+<td class="Message">Mapped &quot;{[/api/queryDiskInfo],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt;&gt; org.jeecg.modules.demo.mock.MockController.queryDiskInfo(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,149</td>
+<td class="Message">Mapped &quot;{[/api/workplace/activity],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.activity()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,153</td>
+<td class="Message">Mapped &quot;{[/api/task/process],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.taskProcess()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,154</td>
+<td class="Message">Mapped &quot;{[/api/workplace/radar],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.radar()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,154</td>
+<td class="Message">Mapped &quot;{[/api/report/getMonthCountInfo],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.getMonthCountInfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,155</td>
+<td class="Message">Mapped &quot;{[/api/report/getCabinetCountInfo],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.getCabinetCountInfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,155</td>
+<td class="Message">Mapped &quot;{[/api/permission/no-pager],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.permission_no_page()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,156</td>
+<td class="Message">Mapped &quot;{[/api/report/getCntrNoCountInfo],methods=[GET]}&quot; onto public java.lang.String org.jeecg.modules.demo.mock.MockController.getCntrNoCountInfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,159</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessage&gt; org.jeecg.modules.message.controller.SysMessageController.add(org.jeecg.modules.message.entity.SysMessage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,160</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessage&gt; org.jeecg.modules.message.controller.SysMessageController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,160</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.message.controller.SysMessageController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,161</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.message.entity.SysMessage&gt;&gt; org.jeecg.modules.message.controller.SysMessageController.queryPageList(org.jeecg.modules.message.entity.SysMessage,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,161</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessage&gt; org.jeecg.modules.message.controller.SysMessageController.edit(org.jeecg.modules.message.entity.SysMessage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,162</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessage&gt; org.jeecg.modules.message.controller.SysMessageController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,162</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessage&gt; org.jeecg.modules.message.controller.SysMessageController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,163</td>
+<td class="Message">Mapped &quot;{[/message/sysMessage/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.message.controller.SysMessageController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,165</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.add(org.jeecg.modules.message.entity.SysMessageTemplate)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,165</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,166</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/sendMsg],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.sendMessage(org.jeecg.modules.message.entity.MsgParams)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,166</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,167</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt;&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.queryPageList(org.jeecg.modules.message.entity.SysMessageTemplate,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,167</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.edit(org.jeecg.modules.message.entity.SysMessageTemplate)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,168</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,168</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.message.entity.SysMessageTemplate&gt; org.jeecg.modules.message.controller.SysMessageTemplateController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,168</td>
+<td class="Message">Mapped &quot;{[/message/sysMessageTemplate/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.message.controller.SysMessageTemplateController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,170</td>
+<td class="Message">Mapped &quot;{[/redis/info],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.monitor.controller.RedisController.getRedisInfo() throws java.lang.Exception</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,170</td>
+<td class="Message">Mapped &quot;{[/redis/keysSize],methods=[GET]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; org.jeecg.modules.monitor.controller.RedisController.getKeysSize() throws java.lang.Exception</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,170</td>
+<td class="Message">Mapped &quot;{[/redis/memoryInfo],methods=[GET]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; org.jeecg.modules.monitor.controller.RedisController.getMemoryInfo() throws java.lang.Exception</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,171</td>
+<td class="Message">Mapped &quot;{[/sys/ng-alain/getDictItemsByTable/{table}/{key}/{value}],methods=[GET]}&quot; onto public java.lang.Object org.jeecg.modules.ngalain.controller.NgAlainController.getDictItemsByTable(java.lang.String,java.lang.String,java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,172</td>
+<td class="Message">Mapped &quot;{[/sys/ng-alain/getAppData]}&quot; onto public com.alibaba.fastjson.JSONObject org.jeecg.modules.ngalain.controller.NgAlainController.getAppData(javax.servlet.http.HttpServletRequest) throws java.lang.Exception</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,172</td>
+<td class="Message">Mapped &quot;{[/sys/ng-alain/getDictItems/{dictCode}],methods=[GET]}&quot; onto public java.lang.Object org.jeecg.modules.ngalain.controller.NgAlainController.getDictItems(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,173</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/api/getData/{code}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportAPI.getData(java.lang.String,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,174</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/api/exportXls/{reportId}]}&quot; onto public void org.jeecg.modules.online.cgreport.controller.OnlCgreportAPI.exportXls(java.lang.String,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,174</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/api/getQueryInfo/{code}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportAPI.getQueryInfo(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,181</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/api/getColumns/{code}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportAPI.getColumns(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,183</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.add(org.jeecg.modules.online.cgreport.model.OnlCgreportModel)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,183</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportHead&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,184</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportHead&gt;&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.queryPageList(org.jeecg.modules.online.cgreport.entity.OnlCgreportHead,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,184</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportHead&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.edit(org.jeecg.modules.online.cgreport.entity.OnlCgreportHead)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,185</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportHead&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,185</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportHead&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,186</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/parseSql],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.parseSql(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,186</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/head/editAll],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportHeadController.editAll(org.jeecg.modules.online.cgreport.model.OnlCgreportModel)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,188</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.add(org.jeecg.modules.online.cgreport.entity.OnlCgreportItem)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,188</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,189</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt;&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.queryPageList(org.jeecg.modules.online.cgreport.entity.OnlCgreportItem,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,189</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.edit(org.jeecg.modules.online.cgreport.entity.OnlCgreportItem)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,190</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,190</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportItem&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,191</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/item/listByHeadId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportItemController.queryPageListByHeadId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,192</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.add(org.jeecg.modules.online.cgreport.entity.OnlCgreportParam)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,193</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,193</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt;&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.queryPageList(org.jeecg.modules.online.cgreport.entity.OnlCgreportParam,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,194</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.edit(org.jeecg.modules.online.cgreport.entity.OnlCgreportParam)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,194</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,195</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.online.cgreport.entity.OnlCgreportParam&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,195</td>
+<td class="Message">Mapped &quot;{[/online/cgreport/param/listByHeadId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.online.cgreport.controller.OnlCgreportParamController.queryPageListByHeadId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,198</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.quartz.controller.QuartzJobController.add(org.jeecg.modules.quartz.entity.QuartzJob)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,198</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.quartz.entity.QuartzJob&gt; org.jeecg.modules.quartz.controller.QuartzJobController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,199</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/pause],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Object&gt; org.jeecg.modules.quartz.controller.QuartzJobController.pauseJob(org.jeecg.modules.quartz.entity.QuartzJob)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,199</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/resume],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Object&gt; org.jeecg.modules.quartz.controller.QuartzJobController.resumeJob(org.jeecg.modules.quartz.entity.QuartzJob)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,199</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.quartz.controller.QuartzJobController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,200</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.quartz.entity.QuartzJob&gt;&gt; org.jeecg.modules.quartz.controller.QuartzJobController.queryPageList(org.jeecg.modules.quartz.entity.QuartzJob,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,200</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.quartz.entity.QuartzJob&gt; org.jeecg.modules.quartz.controller.QuartzJobController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,200</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.quartz.entity.QuartzJob&gt; org.jeecg.modules.quartz.controller.QuartzJobController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,201</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.quartz.controller.QuartzJobController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,201</td>
+<td class="Message">Mapped &quot;{[/sys/quartzJob/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.quartz.entity.QuartzJob&gt; org.jeecg.modules.quartz.controller.QuartzJobController.eidt(org.jeecg.modules.quartz.entity.QuartzJob)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,203</td>
+<td class="Message">Mapped &quot;{[/collector/collector/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.collector.entity.Collector&gt; org.jeecg.modules.service.collector.controller.CollectorController.add(org.jeecg.modules.service.collector.vo.CollectorPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,204</td>
+<td class="Message">Mapped &quot;{[/collector/collector/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.collector.entity.Collector&gt; org.jeecg.modules.service.collector.controller.CollectorController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,204</td>
+<td class="Message">Mapped &quot;{[/collector/collector/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.service.collector.controller.CollectorController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,204</td>
+<td class="Message">Mapped &quot;{[/collector/collector/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.service.collector.entity.Collector&gt;&gt; org.jeecg.modules.service.collector.controller.CollectorController.queryPageList(org.jeecg.modules.service.collector.entity.Collector,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,205</td>
+<td class="Message">Mapped &quot;{[/collector/collector/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.collector.entity.Collector&gt; org.jeecg.modules.service.collector.controller.CollectorController.edit(org.jeecg.modules.service.collector.vo.CollectorPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,205</td>
+<td class="Message">Mapped &quot;{[/collector/collector/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.collector.entity.Collector&gt; org.jeecg.modules.service.collector.controller.CollectorController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,206</td>
+<td class="Message">Mapped &quot;{[/collector/collector/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.collector.entity.Collector&gt; org.jeecg.modules.service.collector.controller.CollectorController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,206</td>
+<td class="Message">Mapped &quot;{[/collector/collector/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.service.collector.controller.CollectorController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,206</td>
+<td class="Message">Mapped &quot;{[/collector/collector/queryOrderItemByMainId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.service.customer.entity.OrderItem&gt;&gt; org.jeecg.modules.service.collector.controller.CollectorController.queryOrderItemListByMainId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,209</td>
+<td class="Message">Mapped &quot;{[/company/company/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.company.entity.Company&gt; org.jeecg.modules.service.company.controller.CompanyController.add(org.jeecg.modules.service.company.vo.CompanyPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,209</td>
+<td class="Message">Mapped &quot;{[/company/company/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.company.entity.Company&gt; org.jeecg.modules.service.company.controller.CompanyController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,210</td>
+<td class="Message">Mapped &quot;{[/company/company/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.service.company.controller.CompanyController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,210</td>
+<td class="Message">Mapped &quot;{[/company/company/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.service.company.entity.Company&gt;&gt; org.jeecg.modules.service.company.controller.CompanyController.queryPageList(org.jeecg.modules.service.company.entity.Company,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,211</td>
+<td class="Message">Mapped &quot;{[/company/company/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.company.entity.Company&gt; org.jeecg.modules.service.company.controller.CompanyController.edit(org.jeecg.modules.service.company.vo.CompanyPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,211</td>
+<td class="Message">Mapped &quot;{[/company/company/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.company.entity.Company&gt; org.jeecg.modules.service.company.controller.CompanyController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,211</td>
+<td class="Message">Mapped &quot;{[/company/company/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.company.entity.Company&gt; org.jeecg.modules.service.company.controller.CompanyController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,212</td>
+<td class="Message">Mapped &quot;{[/company/company/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.service.company.controller.CompanyController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,212</td>
+<td class="Message">Mapped &quot;{[/company/company/queryOrderItemByMainId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.service.customer.entity.OrderItem&gt;&gt; org.jeecg.modules.service.company.controller.CompanyController.queryOrderItemListByMainId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,216</td>
+<td class="Message">Mapped &quot;{[/customer/customer/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.customer.entity.Customer&gt; org.jeecg.modules.service.customer.controller.CustomerController.add(org.jeecg.modules.service.customer.vo.CustomerPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,216</td>
+<td class="Message">Mapped &quot;{[/customer/customer/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.customer.entity.Customer&gt; org.jeecg.modules.service.customer.controller.CustomerController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,217</td>
+<td class="Message">Mapped &quot;{[/customer/customer/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.service.customer.controller.CustomerController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,217</td>
+<td class="Message">Mapped &quot;{[/customer/customer/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.service.customer.entity.Customer&gt;&gt; org.jeecg.modules.service.customer.controller.CustomerController.queryPageList(org.jeecg.modules.service.customer.entity.Customer,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,217</td>
+<td class="Message">Mapped &quot;{[/customer/customer/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.customer.entity.Customer&gt; org.jeecg.modules.service.customer.controller.CustomerController.edit(org.jeecg.modules.service.customer.vo.CustomerPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,218</td>
+<td class="Message">Mapped &quot;{[/customer/customer/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.customer.entity.Customer&gt; org.jeecg.modules.service.customer.controller.CustomerController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,218</td>
+<td class="Message">Mapped &quot;{[/customer/customer/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.customer.entity.Customer&gt; org.jeecg.modules.service.customer.controller.CustomerController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,219</td>
+<td class="Message">Mapped &quot;{[/customer/customer/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.service.customer.controller.CustomerController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,219</td>
+<td class="Message">Mapped &quot;{[/customer/customer/queryAddrDetailByMainId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.service.customer.entity.AddrDetail&gt;&gt; org.jeecg.modules.service.customer.controller.CustomerController.queryAddrDetailListByMainId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,219</td>
+<td class="Message">Mapped &quot;{[/customer/customer/queryOrderItemByMainId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.service.customer.entity.OrderItem&gt;&gt; org.jeecg.modules.service.customer.controller.CustomerController.queryOrderItemListByMainId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,222</td>
+<td class="Message">Mapped &quot;{[/gift/gift/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.gift.entity.Gift&gt; org.jeecg.modules.service.gift.controller.GiftController.add(org.jeecg.modules.service.gift.vo.GiftPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,222</td>
+<td class="Message">Mapped &quot;{[/gift/gift/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.gift.entity.Gift&gt; org.jeecg.modules.service.gift.controller.GiftController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,223</td>
+<td class="Message">Mapped &quot;{[/gift/gift/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.service.gift.controller.GiftController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,230</td>
+<td class="Message">Mapped &quot;{[/gift/gift/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.service.gift.entity.Gift&gt;&gt; org.jeecg.modules.service.gift.controller.GiftController.queryPageList(org.jeecg.modules.service.gift.entity.Gift,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,231</td>
+<td class="Message">Mapped &quot;{[/gift/gift/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.gift.entity.Gift&gt; org.jeecg.modules.service.gift.controller.GiftController.edit(org.jeecg.modules.service.gift.vo.GiftPage)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,231</td>
+<td class="Message">Mapped &quot;{[/gift/gift/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.gift.entity.Gift&gt; org.jeecg.modules.service.gift.controller.GiftController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,231</td>
+<td class="Message">Mapped &quot;{[/gift/gift/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.service.gift.entity.Gift&gt; org.jeecg.modules.service.gift.controller.GiftController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,232</td>
+<td class="Message">Mapped &quot;{[/gift/gift/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.service.gift.controller.GiftController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,232</td>
+<td class="Message">Mapped &quot;{[/gift/gift/queryExpressByMainId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.service.gift.entity.Express&gt;&gt; org.jeecg.modules.service.gift.controller.GiftController.queryExpressListByMainId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,233</td>
+<td class="Message">Mapped &quot;{[/article],methods=[GET]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.article()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,234</td>
+<td class="Message">Mapped &quot;{[/require_permission],methods=[GET]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.requirePermission()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,234</td>
+<td class="Message">Mapped &quot;{[/login],methods=[POST]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.login(java.lang.String,java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,234</td>
+<td class="Message">Mapped &quot;{[/require_auth],methods=[GET]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.requireAuth()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,235</td>
+<td class="Message">Mapped &quot;{[/401]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.unauthorized()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,235</td>
+<td class="Message">Mapped &quot;{[/require_role],methods=[GET]}&quot; onto public org.jeecg.modules.shiro.vo.ResponseBean org.jeecg.modules.shiro.web.TestWebController.requireRole()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,236</td>
+<td class="Message">Mapped &quot;{[/sys/duplicate/check],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Object&gt; org.jeecg.modules.system.controller.DuplicateCheckController.doDuplicateCheck(org.jeecg.modules.system.model.DuplicateCheckVo,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,237</td>
+<td class="Message">Mapped &quot;{[/sys/login],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.alibaba.fastjson.JSONObject&gt; org.jeecg.modules.system.controller.LoginController.login(org.jeecg.modules.system.model.SysLoginModel)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,237</td>
+<td class="Message">Mapped &quot;{[/sys/logout]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Object&gt; org.jeecg.modules.system.controller.LoginController.logout(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,238</td>
+<td class="Message">Mapped &quot;{[/sys/loginfo],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.alibaba.fastjson.JSONObject&gt; org.jeecg.modules.system.controller.LoginController.loginfo()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,239</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.add(org.jeecg.modules.system.entity.SysAnnouncement)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,240</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,240</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysAnnouncementController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,240</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt;&gt; org.jeecg.modules.system.controller.SysAnnouncementController.queryPageList(org.jeecg.modules.system.entity.SysAnnouncement,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,241</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.edit(org.jeecg.modules.system.entity.SysAnnouncement)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,241</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,242</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,242</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.system.controller.SysAnnouncementController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,242</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/doReovkeData],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.doReovkeData(java.lang.String,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,243</td>
+<td class="Message">Mapped &quot;{[/sys/annountCement/doReleaseData],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysAnnouncement&gt; org.jeecg.modules.system.controller.SysAnnouncementController.doReleaseData(java.lang.String,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,244</td>
+<td class="Message">Mapped &quot;{[/sys/dataLog/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysDataLog&gt;&gt; org.jeecg.modules.system.controller.SysDataLogController.queryPageList(org.jeecg.modules.system.entity.SysDataLog,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,244</td>
+<td class="Message">Mapped &quot;{[/sys/dataLog/queryDataVerList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysDataLog&gt;&gt; org.jeecg.modules.system.controller.SysDataLogController.queryDataVerList(javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,244</td>
+<td class="Message">Mapped &quot;{[/sys/dataLog/queryCompareList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysDataLog&gt;&gt; org.jeecg.modules.system.controller.SysDataLogController.queryCompareList(javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,246</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDepart&gt; org.jeecg.modules.system.controller.SysDepartController.add(org.jeecg.modules.system.entity.SysDepart,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,246</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDepart&gt; org.jeecg.modules.system.controller.SysDepartController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,246</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDepart&gt; org.jeecg.modules.system.controller.SysDepartController.edit(org.jeecg.modules.system.entity.SysDepart,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,247</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDepart&gt; org.jeecg.modules.system.controller.SysDepartController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,247</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/queryTreeList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.SysDepartTreeModel&gt;&gt; org.jeecg.modules.system.controller.SysDepartController.queryTreeList()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,247</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/queryIdTree],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.DepartIdModel&gt;&gt; org.jeecg.modules.system.controller.SysDepartController.queryIdTree()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,248</td>
+<td class="Message">Mapped &quot;{[/sysdepart/sysDepart/searchBy],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.SysDepartTreeModel&gt;&gt; org.jeecg.modules.system.controller.SysDepartController.searchBy(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,249</td>
+<td class="Message">Mapped &quot;{[/sys/dict/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDict&gt; org.jeecg.modules.system.controller.SysDictController.add(org.jeecg.modules.system.entity.SysDict)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,250</td>
+<td class="Message">Mapped &quot;{[/sys/dict/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDict&gt; org.jeecg.modules.system.controller.SysDictController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,250</td>
+<td class="Message">Mapped &quot;{[/sys/dict/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysDictController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,250</td>
+<td class="Message">Mapped &quot;{[/sys/dict/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysDict&gt;&gt; org.jeecg.modules.system.controller.SysDictController.queryPageList(org.jeecg.modules.system.entity.SysDict,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,251</td>
+<td class="Message">Mapped &quot;{[/sys/dict/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDict&gt; org.jeecg.modules.system.controller.SysDictController.edit(org.jeecg.modules.system.entity.SysDict)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,251</td>
+<td class="Message">Mapped &quot;{[/sys/dict/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDict&gt; org.jeecg.modules.system.controller.SysDictController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,251</td>
+<td class="Message">Mapped &quot;{[/sys/dict/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.system.controller.SysDictController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,252</td>
+<td class="Message">Mapped &quot;{[/sys/dict/getDictItems/{dictCode}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt;&gt; org.jeecg.modules.system.controller.SysDictController.getDictItems(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,252</td>
+<td class="Message">Mapped &quot;{[/sys/dict/getDictText/{dictCode}/{key}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.String&gt; org.jeecg.modules.system.controller.SysDictController.getDictItems(java.lang.String,java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,252</td>
+<td class="Message">Mapped &quot;{[/sys/dict/treeList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.SysDictTree&gt;&gt; org.jeecg.modules.system.controller.SysDictController.treeList(org.jeecg.modules.system.entity.SysDict,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,254</td>
+<td class="Message">Mapped &quot;{[/sys/dictItem/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDictItem&gt; org.jeecg.modules.system.controller.SysDictItemController.add(org.jeecg.modules.system.entity.SysDictItem)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,254</td>
+<td class="Message">Mapped &quot;{[/sys/dictItem/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDictItem&gt; org.jeecg.modules.system.controller.SysDictItemController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,255</td>
+<td class="Message">Mapped &quot;{[/sys/dictItem/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysDictItem&gt;&gt; org.jeecg.modules.system.controller.SysDictItemController.queryPageList(org.jeecg.modules.system.entity.SysDictItem,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,255</td>
+<td class="Message">Mapped &quot;{[/sys/dictItem/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDictItem&gt; org.jeecg.modules.system.controller.SysDictItemController.edit(org.jeecg.modules.system.entity.SysDictItem)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,255</td>
+<td class="Message">Mapped &quot;{[/sys/dictItem/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysDictItem&gt; org.jeecg.modules.system.controller.SysDictItemController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,256</td>
+<td class="Message">Mapped &quot;{[/sys/log/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysLog&gt; org.jeecg.modules.system.controller.SysLogController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,256</td>
+<td class="Message">Mapped &quot;{[/sys/log/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysLog&gt;&gt; org.jeecg.modules.system.controller.SysLogController.queryPageList(org.jeecg.modules.system.entity.SysLog,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,257</td>
+<td class="Message">Mapped &quot;{[/sys/log/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysLogController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,259</td>
+<td class="Message">Mapped &quot;{[/sys/permission/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermission&gt; org.jeecg.modules.system.controller.SysPermissionController.add(org.jeecg.modules.system.entity.SysPermission)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,259</td>
+<td class="Message">Mapped &quot;{[/sys/permission/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermission&gt; org.jeecg.modules.system.controller.SysPermissionController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,259</td>
+<td class="Message">Mapped &quot;{[/sys/permission/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.SysPermissionTree&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.list()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,260</td>
+<td class="Message">Mapped &quot;{[/sys/permission/edit],methods=[PUT || POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermission&gt; org.jeecg.modules.system.controller.SysPermissionController.edit(org.jeecg.modules.system.entity.SysPermission)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,260</td>
+<td class="Message">Mapped &quot;{[/sys/permission/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermission&gt; org.jeecg.modules.system.controller.SysPermissionController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,261</td>
+<td class="Message">Mapped &quot;{[/sys/permission/addPermissionRule],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermissionDataRule&gt; org.jeecg.modules.system.controller.SysPermissionController.addPermissionRule(org.jeecg.modules.system.entity.SysPermissionDataRule)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,261</td>
+<td class="Message">Mapped &quot;{[/sys/permission/editPermissionRule],methods=[PUT || POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermissionDataRule&gt; org.jeecg.modules.system.controller.SysPermissionController.editPermissionRule(org.jeecg.modules.system.entity.SysPermissionDataRule)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,261</td>
+<td class="Message">Mapped &quot;{[/sys/permission/saveRolePermission],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.String&gt; org.jeecg.modules.system.controller.SysPermissionController.saveRolePermission(com.alibaba.fastjson.JSONObject)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,262</td>
+<td class="Message">Mapped &quot;{[/sys/permission/deletePermissionRule],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysPermissionDataRule&gt; org.jeecg.modules.system.controller.SysPermissionController.deletePermissionRule(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,262</td>
+<td class="Message">Mapped &quot;{[/sys/permission/queryRolePermission],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;java.lang.String&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.queryRolePermission(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,269</td>
+<td class="Message">Mapped &quot;{[/sys/permission/queryPermissionRule],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysPermissionDataRule&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.queryPermissionRule(org.jeecg.modules.system.entity.SysPermissionDataRule)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,270</td>
+<td class="Message">Mapped &quot;{[/sys/permission/getPermRuleListByPermId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysPermissionDataRule&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.getPermRuleListByPermId(org.jeecg.modules.system.entity.SysPermissionDataRule)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,270</td>
+<td class="Message">Mapped &quot;{[/sys/permission/queryByUser],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.alibaba.fastjson.JSONArray&gt; org.jeecg.modules.system.controller.SysPermissionController.queryByUser(javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,271</td>
+<td class="Message">Mapped &quot;{[/sys/permission/queryTreeList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.queryTreeList()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,271</td>
+<td class="Message">Mapped &quot;{[/sys/permission/queryListAsync],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.TreeModel&gt;&gt; org.jeecg.modules.system.controller.SysPermissionController.queryAsync(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,273</td>
+<td class="Message">Mapped &quot;{[/sys/role/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysRoleController.add(org.jeecg.modules.system.entity.SysRole)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,273</td>
+<td class="Message">Mapped &quot;{[/sys/role/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysRoleController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,274</td>
+<td class="Message">Mapped &quot;{[/sys/role/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysRoleController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,274</td>
+<td class="Message">Mapped &quot;{[/sys/role/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysRole&gt;&gt; org.jeecg.modules.system.controller.SysRoleController.queryPageList(org.jeecg.modules.system.entity.SysRole,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,274</td>
+<td class="Message">Mapped &quot;{[/sys/role/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysRoleController.edit(org.jeecg.modules.system.entity.SysRole)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,275</td>
+<td class="Message">Mapped &quot;{[/sys/role/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysRoleController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,278</td>
+<td class="Message">Mapped &quot;{[/sys/role/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysRole&gt; org.jeecg.modules.system.controller.SysRoleController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,279</td>
+<td class="Message">Mapped &quot;{[/sys/role/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.system.controller.SysRoleController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,279</td>
+<td class="Message">Mapped &quot;{[/sys/role/queryTreeList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.jeecg.modules.system.controller.SysRoleController.queryTreeList(javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,280</td>
+<td class="Message">Mapped &quot;{[/sys/role/queryall],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysRole&gt;&gt; org.jeecg.modules.system.controller.SysRoleController.queryall()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,280</td>
+<td class="Message">Mapped &quot;{[/sys/role/checkRoleCode],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Boolean&gt; org.jeecg.modules.system.controller.SysRoleController.checkUsername(java.lang.String,java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,280</td>
+<td class="Message">Mapped &quot;{[/sys/role/datarule/{permissionId}/{roleId}],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysRoleController.loadDatarule(java.lang.String,java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,281</td>
+<td class="Message">Mapped &quot;{[/sys/role/datarule],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysRoleController.saveDatarule(com.alibaba.fastjson.JSONObject)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,283</td>
+<td class="Message">Mapped &quot;{[/sys/user/add],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.add(com.alibaba.fastjson.JSONObject)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,283</td>
+<td class="Message">Mapped &quot;{[/sys/user/delete],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.delete(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,284</td>
+<td class="Message">Mapped &quot;{[/sys/user/importExcel],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;?&gt; org.jeecg.modules.system.controller.SysUserController.importExcel(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,284</td>
+<td class="Message">Mapped &quot;{[/sys/user/list],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;com.baomidou.mybatisplus.core.metadata.IPage&lt;org.jeecg.modules.system.entity.SysUser&gt;&gt; org.jeecg.modules.system.controller.SysUserController.queryPageList(org.jeecg.modules.system.entity.SysUser,java.lang.Integer,java.lang.Integer,javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,285</td>
+<td class="Message">Mapped &quot;{[/sys/user/edit],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.edit(com.alibaba.fastjson.JSONObject)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,285</td>
+<td class="Message">Mapped &quot;{[/sys/user/deleteBatch],methods=[DELETE]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.deleteBatch(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,286</td>
+<td class="Message">Mapped &quot;{[/sys/user/queryById],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.queryById(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,286</td>
+<td class="Message">Mapped &quot;{[/sys/user/exportXls]}&quot; onto public org.springframework.web.servlet.ModelAndView org.jeecg.modules.system.controller.SysUserController.exportXls(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,286</td>
+<td class="Message">Mapped &quot;{[/sys/user/addUDepartIds],methods=[POST]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.String&gt; org.jeecg.modules.system.controller.SysUserController.addSysUseWithrDepart(org.jeecg.modules.system.model.SysUserDepartsVO)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,287</td>
+<td class="Message">Mapped &quot;{[/sys/user/editUDepartIds],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.String&gt; org.jeecg.modules.system.controller.SysUserController.editSysUserWithDepart(org.jeecg.modules.system.model.SysUserDepartsVO)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,287</td>
+<td class="Message">Mapped &quot;{[/sys/user/userDepartList],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.model.DepartIdModel&gt;&gt; org.jeecg.modules.system.controller.SysUserController.getUserDepartsList(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,287</td>
+<td class="Message">Mapped &quot;{[/sys/user/checkOnlyUser],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.Boolean&gt; org.jeecg.modules.system.controller.SysUserController.checkUsername(org.jeecg.modules.system.entity.SysUser)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,288</td>
+<td class="Message">Mapped &quot;{[/sys/user/queryUserRole],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;java.lang.String&gt;&gt; org.jeecg.modules.system.controller.SysUserController.queryUserRole(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,288</td>
+<td class="Message">Mapped &quot;{[/sys/user/queryUserRoleMap],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.Map&lt;java.lang.String, java.lang.String&gt;&gt; org.jeecg.modules.system.controller.SysUserController.queryUserRole()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,288</td>
+<td class="Message">Mapped &quot;{[/sys/user/changPassword],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.changPassword(org.jeecg.modules.system.entity.SysUser)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,289</td>
+<td class="Message">Mapped &quot;{[/sys/user/generateUserId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.lang.String&gt; org.jeecg.modules.system.controller.SysUserController.generateUserId()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,289</td>
+<td class="Message">Mapped &quot;{[/sys/user/frozenBatch],methods=[PUT]}&quot; onto public org.jeecg.common.api.vo.Result&lt;org.jeecg.modules.system.entity.SysUser&gt; org.jeecg.modules.system.controller.SysUserController.frozenBatch(com.alibaba.fastjson.JSONObject)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,289</td>
+<td class="Message">Mapped &quot;{[/sys/user/queryUserByDepId],methods=[GET]}&quot; onto public org.jeecg.common.api.vo.Result&lt;java.util.List&lt;org.jeecg.modules.system.entity.SysUser&gt;&gt; org.jeecg.modules.system.controller.SysUserController.queryUserByDepId(java.lang.String)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,294</td>
+<td class="Message">Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,295</td>
+<td class="Message">Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,296</td>
+<td class="Message">Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,298</td>
+<td class="Message">Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,299</td>
+<td class="Message">Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,444</td>
+<td class="Message">Exposing 2 endpoint(s) beneath base path &#39;/actuator&#39;</td>
+<td class="MethodOfCaller">&lt;init&gt;</td>
+<td class="FileOfCaller">EndpointLinksResolver.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,456</td>
+<td class="Message">Mapped &quot;{[/actuator/metrics/{requiredMetricName}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,457</td>
+<td class="Message">Mapped &quot;{[/actuator/metrics],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,458</td>
+<td class="Message">Mapped &quot;{[/actuator/httptrace],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map&lt;java.lang.String, java.lang.String&gt;)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,459</td>
+<td class="Message">Mapped &quot;{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}&quot; onto protected java.util.Map&lt;java.lang.String, java.util.Map&lt;java.lang.String, org.springframework.boot.actuate.endpoint.web.Link&gt;&gt; org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)</td>
+<td class="MethodOfCaller">register</td>
+<td class="FileOfCaller">AbstractHandlerMethodMapping.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,707</td>
+<td class="Message">Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]</td>
+<td class="MethodOfCaller">initHandlerMethods</td>
+<td class="FileOfCaller">PropertySourcedRequestMappingHandlerMapping.java</td>
+<td class="LineOfCaller">69</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:06,840</td>
+<td class="Message">Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]</td>
+<td class="MethodOfCaller">registerHandler</td>
+<td class="FileOfCaller">AbstractUrlHandlerMapping.java</td>
+<td class="LineOfCaller">373</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,096</td>
+<td class="Message">Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3cebbb30: startup date [Tue Apr 23 00:23:57 CST 2019]; root of context hierarchy</td>
+<td class="MethodOfCaller">initControllerAdviceCache</td>
+<td class="FileOfCaller">RequestMappingHandlerAdapter.java</td>
+<td class="LineOfCaller">574</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,154</td>
+<td class="Message">Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]</td>
+<td class="MethodOfCaller">registerHandler</td>
+<td class="FileOfCaller">AbstractUrlHandlerMapping.java</td>
+<td class="LineOfCaller">360</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,178</td>
+<td class="Message">Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]</td>
+<td class="MethodOfCaller">registerHandler</td>
+<td class="FileOfCaller">AbstractUrlHandlerMapping.java</td>
+<td class="LineOfCaller">373</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,179</td>
+<td class="Message">Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]</td>
+<td class="MethodOfCaller">registerHandler</td>
+<td class="FileOfCaller">AbstractUrlHandlerMapping.java</td>
+<td class="LineOfCaller">373</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,179</td>
+<td class="Message">Mapped URL path [/swagger-ui.html] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]</td>
+<td class="MethodOfCaller">registerHandler</td>
+<td class="FileOfCaller">AbstractUrlHandlerMapping.java</td>
+<td class="LineOfCaller">373</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:07,213</td>
+<td class="Message">Detected @ExceptionHandler methods in jeecgBootExceptionHandler</td>
+<td class="MethodOfCaller">initExceptionHandlerAdviceCache</td>
+<td class="FileOfCaller">ExceptionHandlerExceptionResolver.java</td>
+<td class="LineOfCaller">288</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,009</td>
+<td class="Message">ClassTemplateLoader for Spring macros added to FreeMarker configuration</td>
+<td class="MethodOfCaller">postProcessTemplateLoaders</td>
+<td class="FileOfCaller">FreeMarkerConfigurer.java</td>
+<td class="LineOfCaller">131</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,296</td>
+<td class="Message">Registering beans for JMX exposure on startup</td>
+<td class="MethodOfCaller">afterSingletonsInstantiated</td>
+<td class="FileOfCaller">MBeanExporter.java</td>
+<td class="LineOfCaller">433</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,299</td>
+<td class="Message">Bean with name &#39;statFilter&#39; has been autodetected for JMX exposure</td>
+<td class="MethodOfCaller">autodetect</td>
+<td class="FileOfCaller">MBeanExporter.java</td>
+<td class="LineOfCaller">895</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,311</td>
+<td class="Message">Located MBean &#39;statFilter&#39;: registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]</td>
+<td class="MethodOfCaller">registerBeanInstance</td>
+<td class="FileOfCaller">MBeanExporter.java</td>
+<td class="LineOfCaller">668</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,316</td>
+<td class="Message">Starting beans in phase 2147483647</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DefaultLifecycleProcessor.java</td>
+<td class="LineOfCaller">351</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,317</td>
+<td class="Message">Context refreshed</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">160</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,333</td>
+<td class="Message">Found 1 custom documentation plugin(s)</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">DocumentationPluginsBootstrapper.java</td>
+<td class="LineOfCaller">163</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,366</td>
+<td class="Message">Scanning for api listing references</td>
+<td class="MethodOfCaller">scan</td>
+<td class="FileOfCaller">ApiListingReferenceScanner.java</td>
+<td class="LineOfCaller">41</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,516</td>
+<td class="Message">Generating unique operation named: loginUsingPOST_1</td>
+<td class="MethodOfCaller">startingWith</td>
+<td class="FileOfCaller">CachingOperationNameGenerator.java</td>
+<td class="LineOfCaller">40</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,526</td>
+<td class="Message">Starting Quartz Scheduler now</td>
+<td class="MethodOfCaller">startScheduler</td>
+<td class="FileOfCaller">SchedulerFactoryBean.java</td>
+<td class="LineOfCaller">700</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,640</td>
+<td class="Message">Freed 0 triggers from &#39;acquired&#39; / &#39;blocked&#39; state.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">866</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,647</td>
+<td class="Message">Recovering 0 jobs that were in-progress at the time of the last shut-down.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">876</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,647</td>
+<td class="Message">Recovery complete.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">889</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,649</td>
+<td class="Message">Removed 0 &#39;complete&#39; triggers.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">896</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,650</td>
+<td class="Message">Removed 0 stale fired job entries.</td>
+<td class="MethodOfCaller">recoverJobs</td>
+<td class="FileOfCaller">JobStoreSupport.java</td>
+<td class="LineOfCaller">901</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,651</td>
+<td class="Message">Scheduler quartzScheduler_$_NON_CLUSTERED started.</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">QuartzScheduler.java</td>
+<td class="LineOfCaller">547</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,665</td>
+<td class="Message">Starting ProtocolHandler [&quot;http-nio-8080&quot;]</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,675</td>
+<td class="Message">Using a shared selector for servlet write/read</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,688</td>
+<td class="Message">Tomcat started on port(s): 8080 (http) with context path &#39;&#39;</td>
+<td class="MethodOfCaller">start</td>
+<td class="FileOfCaller">TomcatWebServer.java</td>
+<td class="LineOfCaller">206</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:08,692</td>
+<td class="Message">Started MyApplication in 11.602 seconds (JVM running for 12.433)</td>
+<td class="MethodOfCaller">logStarted</td>
+<td class="FileOfCaller">StartupInfoLogger.java</td>
+<td class="LineOfCaller">59</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:09,225</td>
+<td class="Message">Initializing Spring FrameworkServlet &#39;dispatcherServlet&#39;</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">180</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:09,225</td>
+<td class="Message">FrameworkServlet &#39;dispatcherServlet&#39;: initialization started</td>
+<td class="MethodOfCaller">initServletBean</td>
+<td class="FileOfCaller">FrameworkServlet.java</td>
+<td class="LineOfCaller">494</td>
+</tr>
+
+<tr class="warn even">
+<td class="Level">WARN</td>
+<td class="Date">2019-04-23 00:24:09,247</td>
+<td class="Message">Mail health check failed</td>
+<td class="MethodOfCaller">health</td>
+<td class="FileOfCaller">AbstractHealthIndicator.java</td>
+<td class="LineOfCaller">89</td>
+</tr>
+<tr><td class="Exception" colspan="6">com.sun.mail.util.MailConnectException: Couldn&#39;t connect to host, port: 1027797811@qq.com, 25; timeout -1
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2209)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:740)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.mail.Service.connect(Service.java:366)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.mail.javamail.JavaMailSenderImpl.connectTransport(JavaMailSenderImpl.java:515)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.mail.javamail.JavaMailSenderImpl.testConnection(JavaMailSenderImpl.java:396)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.mail.MailHealthIndicator.doHealthCheck(MailHealthIndicator.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:84)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:68)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:47)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Method.java:498)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:223)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:126)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:99)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1401)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.GeneratedMethodAccessor113.invoke(Unknown Source)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.reflect.Method.invoke(Method.java:498)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.Transport$1.run(Transport.java:200)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.Transport$1.run(Transport.java:197)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.security.AccessController.doPrivileged(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.security.AccessController.doPrivileged(Native Method)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.run(Thread.java:748)
+<br />Caused by: java.net.UnknownHostException: 1027797811@qq.com
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.Socket.connect(Socket.java:589)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.net.Socket.connect(Socket.java:538)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.mail.util.SocketFetcher.createSocket(SocketFetcher.java:353)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.mail.util.SocketFetcher.getSocket(SocketFetcher.java:239)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sun.mail.smtp.SMTPTransport.openServer(SMTPTransport.java:2175)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;	... 40 common frames omitted
+</td></tr>
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:09,248</td>
+<td class="Message">FrameworkServlet &#39;dispatcherServlet&#39;: initialization completed in 23 ms</td>
+<td class="MethodOfCaller">initServletBean</td>
+<td class="FileOfCaller">FrameworkServlet.java</td>
+<td class="LineOfCaller">509</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:09,338</td>
+<td class="Message">Starting without optional epoll library</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4JLogger.java</td>
+<td class="LineOfCaller">101</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:24:09,347</td>
+<td class="Message">Starting without optional kqueue library</td>
+<td class="MethodOfCaller">info</td>
+<td class="FileOfCaller">Slf4JLogger.java</td>
+<td class="LineOfCaller">101</td>
+</tr>
+
+<tr class="error even">
+<td class="Level">ERROR</td>
+<td class="Date">2019-04-23 00:33:34,097</td>
+<td class="Message">Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [org.apache.shiro.authc.AuthenticationException: Token失效，请重新登录] with root cause</td>
+<td class="MethodOfCaller">log</td>
+<td class="FileOfCaller">DirectJDKLog.java</td>
+<td class="LineOfCaller">182</td>
+</tr>
+<tr><td class="Exception" colspan="6">org.apache.shiro.authc.AuthenticationException: token为空!
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.MyRealm.doGetAuthenticationInfo(MyRealm.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:571)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:274)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:260)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.executeLogin(JwtFilter.java:51)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.isAccessAllowed(JwtFilter.java:34)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.AccessControlFilter.onPreHandle(AccessControlFilter.java:162)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.isFilterChainContinued(PathMatchingFilter.java:203)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.filter.PathMatchingFilter.preHandle(PathMatchingFilter.java:178)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.jeecg.modules.shiro.authc.aop.JwtFilter.preHandle(JwtFilter.java:71)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:131)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.alibaba.druid.support.http.WebStatFilter.doFilter(WebStatFilter.java:123)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:90)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1468)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at java.lang.Thread.run(Thread.java:748)
+</td></tr>
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:38,982</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190220\e1fe9925bc315c60addea1b98eb1cb1349547719_1550656892940.jpg (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:43,264</td>
+<td class="Message"> 用户名:  资源监控员,退出成功！ </td>
+<td class="MethodOfCaller">logout</td>
+<td class="FileOfCaller">LoginController.java</td>
+<td class="LineOfCaller">96</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:51,863</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190220\e1fe9925bc315c60addea1b98eb1cb1349547719_1550656892940.jpg (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:55,723</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:55,734</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:38毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:56,871</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:33:56,879</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:11毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:01,012</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:01,021</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:11毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:10,207</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:10,217</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:12毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:12,373</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:12,381</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:9毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,150</td>
+<td class="Message">排序规则&gt;&gt;列:createTime,排序方式:desc</td>
+<td class="MethodOfCaller">doMultiFieldsOrder</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">175</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,158</td>
+<td class="Message">---查询条件构造器初始化完成,耗时:9毫秒----</td>
+<td class="MethodOfCaller">initQueryWrapper</td>
+<td class="FileOfCaller">QueryGenerator.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,187</td>
+<td class="Message">无缓存dictText的时候调用这里！</td>
+<td class="MethodOfCaller">queryDictTextByKey</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,194</td>
+<td class="Message">无缓存dictText的时候调用这里！</td>
+<td class="MethodOfCaller">queryDictTextByKey</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,210</td>
+<td class="Message">无缓存dictText的时候调用这里！</td>
+<td class="MethodOfCaller">queryDictTextByKey</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,215</td>
+<td class="Message">无缓存dictText的时候调用这里！</td>
+<td class="MethodOfCaller">queryDictTextByKey</td>
+<td class="FileOfCaller">SysDictServiceImpl.java</td>
+<td class="LineOfCaller">70</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,323</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190401\20180607175028Fn1Lq7zw_1554118444672.png (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,325</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190314\ly-plate-e_1552531617500.png (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>
+
+<tr class="info even">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,325</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190220\e1fe9925bc315c60addea1b98eb1cb1349547719_1550656892940.jpg (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>
+
+<tr class="info odd">
+<td class="Level">INFO</td>
+<td class="Date">2019-04-23 00:34:15,327</td>
+<td class="Message">预览图片失败D:\upFiles\user\20190119\logo-2_1547868176839.png (系统找不到指定的路径。)</td>
+<td class="MethodOfCaller">view</td>
+<td class="FileOfCaller">CommonController.java</td>
+<td class="LineOfCaller">110</td>
+</tr>

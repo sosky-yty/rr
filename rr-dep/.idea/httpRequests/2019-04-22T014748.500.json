@@ -1,0 +1,7 @@
+{
+  "timestamp": "2019-04-22 01:47:48",
+  "status": 500,
+  "error": "Internal Server Error",
+  "message": "Token失效，请重新登录",
+  "path": "/jeecg-boot/company/company/list"
+}
