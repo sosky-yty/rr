@@ -51,8 +51,7 @@ import org.springframework.web.servlet.ModelAndView;
  * 字典表 前端控制器
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
+ *
  */
 @RestController
 @RequestMapping("/sys/dict")

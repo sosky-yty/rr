@@ -28,8 +28,6 @@ import lombok.extern.slf4j.Slf4j;
  * 系统日志表 前端控制器
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-26
  */
 @RestController
 @RequestMapping("/sys/log")

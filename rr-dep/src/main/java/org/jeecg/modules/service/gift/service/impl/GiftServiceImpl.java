@@ -15,9 +15,6 @@ import java.util.Collection;
 
 /**
  * @Description: 礼品兑换
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
  */
 @Service
 public class GiftServiceImpl extends ServiceImpl<GiftMapper, Gift> implements IGiftService {

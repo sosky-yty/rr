@@ -12,9 +12,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 /**
  * @Description: 定时任务在线管理
- * @author： jeecg-boot
- * @date：   2019-01-02
- * @version： V1.0
  */
 @Service
 public class QuartzJobServiceImpl extends ServiceImpl<QuartzJobMapper, QuartzJob> implements IQuartzJobService {

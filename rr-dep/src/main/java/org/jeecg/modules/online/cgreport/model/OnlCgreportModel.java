@@ -9,9 +9,6 @@ import org.jeecg.modules.online.cgreport.entity.OnlCgreportParam;
 
 /**
  * @Description: 用于接收修改或新增报表信息的model
- * @author: sunjianlei
- * @date: 2019-03-11
- * @version: V1.0
  */
 public class OnlCgreportModel {
 

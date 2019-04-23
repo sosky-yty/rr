@@ -5,7 +5,6 @@ import java.util.List;
 
 /**
  * JsonSchema 模式类
- * < http://json-schema.org/draft-07/schema# >
  */
 public class JsonSchemaDescrip implements Serializable{
 	

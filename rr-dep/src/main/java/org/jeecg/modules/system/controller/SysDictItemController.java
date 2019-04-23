@@ -30,8 +30,6 @@ import lombok.extern.slf4j.Slf4j;
  *  前端控制器
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
  */
 @RestController
 @RequestMapping("/sys/dictItem")

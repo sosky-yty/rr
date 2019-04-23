@@ -18,8 +18,6 @@ import org.springframework.stereotype.Service;
  * 角色权限表 服务实现类
  * </p>
  *
- * @author scott
- * @since 2018-12-21
  */
 @Service
 public class SysRolePermissionServiceImpl extends ServiceImpl<SysRolePermissionMapper, SysRolePermission> implements ISysRolePermissionService {

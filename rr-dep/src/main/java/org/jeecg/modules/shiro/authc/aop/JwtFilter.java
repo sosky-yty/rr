@@ -13,9 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author Scott
- * @create 2018-07-12 15:56
- * @desc   鉴权登录拦截器
  **/
 @Slf4j
 public class JwtFilter extends BasicHttpAuthenticationFilter {

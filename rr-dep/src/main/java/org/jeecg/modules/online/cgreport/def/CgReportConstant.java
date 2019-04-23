@@ -3,9 +3,6 @@ package org.jeecg.modules.online.cgreport.def;
  * 
  * @Title:CgReportConstant
  * @description:动态报表常量类
- * @author 赵俊夫
- * @date Jul 30, 2013 9:16:18 AM
- * @version V1.0
  */
 public class CgReportConstant {
 	/** 抬头配置 */

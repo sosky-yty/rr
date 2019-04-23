@@ -12,8 +12,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.CollectionUtils;
 
 /**
- * redis 工具类
- * @author Scott
  *
  */
 @Component

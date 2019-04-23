@@ -8,8 +8,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 系统日志表 Mapper 接口
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-26
  */
 public interface SysLogMapper extends BaseMapper<SysLog> {
 

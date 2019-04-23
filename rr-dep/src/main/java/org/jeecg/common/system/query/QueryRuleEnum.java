@@ -4,8 +4,6 @@ import org.jeecg.common.util.oConvertUtils;
 
 /**
  * Query 规则 常量
- * @author Scott
- * @date 2019年02月14日
  */
 public enum QueryRuleEnum {
 

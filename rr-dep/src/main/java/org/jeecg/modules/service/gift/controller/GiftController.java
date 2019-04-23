@@ -40,9 +40,6 @@ import com.alibaba.fastjson.JSON;
  /**
  * @Title: Controller
  * @Description: 礼品兑换
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
  */
 @RestController
 @RequestMapping("/gift/gift")

@@ -11,9 +11,7 @@ import java.util.List;
  * <P>
  * 对应部门的表,处理并查找树级数据
  * <P>
- * 
- * @author Steve
- * @Since 2019-01-22
+ *
  */
 public class FindsDepartsChildrenUtil {
 

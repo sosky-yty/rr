@@ -8,9 +8,6 @@ import lombok.Data;
 /**
  * @Title: DuplicateCheckVo
  * @Description: 重复校验VO
- * @author 张代浩
- * @date 2019-03-25
- * @version V1.0
  */
 @Data
 @ApiModel(value="重复校验数据模型",description="重复校验数据模型")

@@ -12,9 +12,6 @@ import org.jeecgframework.poi.excel.annotation.Excel;
 
 /**
  * @Description: 消息模板
- * @author： jeecg-boot
- * @date：   2019-04-09
- * @version： V1.0
  */
 @Data
 @TableName("sys_sms_template")

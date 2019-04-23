@@ -14,7 +14,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * <p>
  * SysUserDpeart用户组织机构service
  * </p>
- * @author ZhiLin
  *
  */
 public interface ISysUserDepartService extends IService<SysUserDepart> {

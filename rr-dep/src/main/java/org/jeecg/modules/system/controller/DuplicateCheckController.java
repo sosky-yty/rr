@@ -13,13 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @Title: DuplicateCheckAction
- * @Description: 重复校验工具
- * @author 张代浩
- * @date 2019-03-25
- * @version V1.0
- */
+
 @Slf4j
 @RestController
 @RequestMapping("/sys/duplicate")

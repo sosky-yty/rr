@@ -16,9 +16,6 @@ import java.util.Collection;
 
 /**
  * @Description: 用户管理
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
  */
 @Service
 public class CollectorServiceImpl extends ServiceImpl<CollectorMapper, Collector> implements ICollectorService {

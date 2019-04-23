@@ -29,8 +29,6 @@ import javax.annotation.PostConstruct;
  * 字典表 服务实现类
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
  */
 @Service()
 @Slf4j

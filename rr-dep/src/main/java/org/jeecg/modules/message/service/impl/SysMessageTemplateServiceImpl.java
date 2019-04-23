@@ -11,9 +11,6 @@ import java.util.List;
 
 /**
  * @Description: 消息模板
- * @author： jeecg-boot
- * @date：   2019-04-09
- * @version： V1.0
  */
 @Service
 public class SysMessageTemplateServiceImpl extends ServiceImpl<SysMessageTemplateMapper, SysMessageTemplate> implements ISysMessageTemplateService {

@@ -10,9 +10,7 @@ import org.jeecg.modules.system.entity.SysDepart;
  * <p>
  * 部门表 封装树结构的部门的名称的实体类
  * <p>
- * 
- * @author Steve
- * @Since 2019-01-22 
+ *
  *
  */
 public class DepartIdModel implements Serializable {

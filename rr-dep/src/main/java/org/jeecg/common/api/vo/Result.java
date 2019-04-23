@@ -8,9 +8,6 @@ import lombok.Data;
 
 /**
  *   接口返回数据格式
- * @author scott
- * @email jeecgos@163.com
- * @date  2019年1月19日
  */
 @Data
 public class Result<T> implements Serializable {

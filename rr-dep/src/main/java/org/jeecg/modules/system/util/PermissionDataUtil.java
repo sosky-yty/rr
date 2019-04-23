@@ -3,8 +3,6 @@ package org.jeecg.modules.system.util;
 import org.jeecg.modules.system.entity.SysPermission;
 
 /**
- * @author scott
- * @since 2019-04-03
  */
 public class PermissionDataUtil {
 

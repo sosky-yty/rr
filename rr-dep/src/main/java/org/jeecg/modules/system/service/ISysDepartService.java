@@ -9,9 +9,7 @@ import java.util.List;
  * <p>
  * 部门表 服务实现类
  * <p>
- * 
- * @author：Steve
- * @Since：   2019-01-22
+ *
  */
 public interface ISysDepartService extends IService<SysDepart>{
 

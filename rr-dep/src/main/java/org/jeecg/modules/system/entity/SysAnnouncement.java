@@ -14,9 +14,6 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * @Description: 系统通告表
- * @author： jeecg-boot
- * @date：   2019-01-02
- * @version： V1.0
  */
 @Data
 @TableName("sys_announcement")

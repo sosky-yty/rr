@@ -40,9 +40,6 @@ import com.alibaba.fastjson.JSON;
  /**
  * @Title: Controller
  * @Description: 消息模板
- * @author： jeecg-boot
- * @date：   2019-04-09
- * @version： V1.0
  */
 @RestController
 @RequestMapping("/message/sysMessageTemplate")

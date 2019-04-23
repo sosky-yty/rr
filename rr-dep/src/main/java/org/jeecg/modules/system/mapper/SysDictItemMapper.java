@@ -11,8 +11,6 @@ import java.util.List;
  * Mapper 接口
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
  */
 public interface SysDictItemMapper extends BaseMapper<SysDictItem> {
     @Select("SELECT * FROM SYS_DICT_ITEM WHERE DICT_ID = #{mainId}")

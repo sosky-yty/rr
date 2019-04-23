@@ -9,9 +9,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 /**
  * @Description: 系统通告表
- * @author： jeecg-boot
- * @date：   2019-01-02
- * @version： V1.0
  */
 @Service
 public class SysAnnouncementServiceImpl extends ServiceImpl<SysAnnouncementMapper, SysAnnouncement> implements ISysAnnouncementService {

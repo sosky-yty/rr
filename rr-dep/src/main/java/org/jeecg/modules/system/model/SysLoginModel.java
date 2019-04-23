@@ -2,8 +2,6 @@ package org.jeecg.modules.system.model;
 /**
  * 登录表单
  *
- * @author scott
- * @since  2019-01-18
  */
 public class SysLoginModel {
     private String username;

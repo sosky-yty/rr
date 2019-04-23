@@ -28,10 +28,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 
-/**
- * @author scott
- * @since 2018-12-17
- */
+
 @RestController
 @RequestMapping("/sys")
 @Api("用户登录")

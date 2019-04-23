@@ -15,9 +15,6 @@ import java.util.Collection;
 
 /**
  * @Description: 资源回收站
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
  */
 @Service
 public class CompanyServiceImpl extends ServiceImpl<CompanyMapper, Company> implements ICompanyService {

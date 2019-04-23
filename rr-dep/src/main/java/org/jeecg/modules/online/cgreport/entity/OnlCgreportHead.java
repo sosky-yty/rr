@@ -13,9 +13,6 @@ import lombok.Data;
 
 /**
  * @Description: 在线报表配置
- * @author: jeecg-boot
- * @date: 2019-03-08
- * @version: V1.0
  */
 @Data
 @TableName("onl_cgreport_head")

@@ -6,9 +6,7 @@ import java.util.List;
 
 /**
  * @Description: 订单信息
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
+
  */
 public interface IOrderItemService extends IService<OrderItem> {
 

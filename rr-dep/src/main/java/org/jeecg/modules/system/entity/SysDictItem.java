@@ -18,8 +18,6 @@ import org.jeecgframework.poi.excel.annotation.Excel;
  *
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

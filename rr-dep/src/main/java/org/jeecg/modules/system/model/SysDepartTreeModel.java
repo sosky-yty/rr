@@ -12,9 +12,7 @@ import java.util.Objects;
  * <p>
  * 部门表 存储树结构数据的实体类
  * <p>
- * 
- * @author Steve
- * @Since 2019-01-22 
+ *
  */
 public class SysDepartTreeModel implements Serializable{
 	

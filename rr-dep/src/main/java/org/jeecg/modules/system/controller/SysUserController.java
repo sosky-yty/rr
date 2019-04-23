@@ -58,8 +58,7 @@ import org.springframework.web.servlet.ModelAndView;
  * 用户表 前端控制器
  * </p>
  *
- * @author scott
- * @since 2018-12-20
+ *
  */
 @Slf4j
 @RestController

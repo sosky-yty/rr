@@ -22,8 +22,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
  * <P>
  * 用户部门表实现类
  * <p/>
- * @author ZhiLin
- *@since 2019-02-22
  */
 @Service
 public class SysUserDepartServiceImpl extends ServiceImpl<SysUserDepartMapper, SysUserDepart> implements ISysUserDepartService {

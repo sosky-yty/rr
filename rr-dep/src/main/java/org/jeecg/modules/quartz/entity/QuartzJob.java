@@ -14,9 +14,6 @@ import lombok.Data;
 
 /**
  * @Description: 定时任务在线管理
- * @author： jeecg-boot
- * @date：   2019-01-02
- * @version： V1.0
  */
 @Data
 @TableName("sys_quartz_job")

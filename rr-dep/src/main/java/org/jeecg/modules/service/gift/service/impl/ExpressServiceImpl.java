@@ -10,9 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @Description: 兑换快递信息
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
  */
 @Service
 public class ExpressServiceImpl extends ServiceImpl<ExpressMapper, Express> implements IExpressService {

@@ -19,9 +19,6 @@ import org.jeecg.modules.system.model.SysUserCacheInfo;
 import org.jeecg.modules.system.util.JeecgDataAutorUtils;
 
 /**
- * @author Scott
- * @create 2018-07-12 14:23
- * @desc JWT工具类
  **/
 public class JwtUtil {
 

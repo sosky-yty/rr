@@ -17,8 +17,6 @@ import lombok.experimental.Accessors;
  * 系统日志表
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-26
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

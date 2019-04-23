@@ -28,8 +28,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
  * 菜单权限表 服务实现类
  * </p>
  *
- * @author scott
- * @since 2018-12-21
  */
 @Service
 public class SysPermissionServiceImpl extends ServiceImpl<SysPermissionMapper, SysPermission> implements ISysPermissionService {

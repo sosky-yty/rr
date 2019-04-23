@@ -21,8 +21,6 @@ import lombok.experimental.Accessors;
  * 用户表
  * </p>
  *
- * @author scott
- * @since 2018-12-20
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

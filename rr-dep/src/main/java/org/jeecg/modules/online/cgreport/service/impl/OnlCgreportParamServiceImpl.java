@@ -9,9 +9,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 
 /**
  * @Description: 在线报表配置
- * @author： jeecg-boot
- * @date：   2019-03-08
- * @version： V1.0
  */
 @Service
 public class OnlCgreportParamServiceImpl extends ServiceImpl<OnlCgreportParamMapper, OnlCgreportParam> implements IOnlCgreportParamService {

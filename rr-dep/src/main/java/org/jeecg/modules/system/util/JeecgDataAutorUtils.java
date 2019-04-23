@@ -12,9 +12,6 @@ import org.springframework.util.StringUtils;
 
 /**
  * @ClassName: JeecgDataAutorUtils
- * @Description: 数据权限查询规则容器工具类
- * @author 张代浩
- * @date 2012-12-15 下午11:27:39
  * 
  */
 public class JeecgDataAutorUtils {

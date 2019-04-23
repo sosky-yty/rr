@@ -4,8 +4,7 @@ package org.jeecg.common.util;
 import java.net.InetAddress;
 
 /**
- * 
- * @author  张代浩
+ *
  *
  */
 public class UUIDGenerator {

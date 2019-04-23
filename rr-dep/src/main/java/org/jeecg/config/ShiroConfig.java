@@ -20,9 +20,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
 
 /**
- * @author: Scott
- * @date: 2018/2/7
- * @description: shiro 配置类
  */
 
 @Configuration

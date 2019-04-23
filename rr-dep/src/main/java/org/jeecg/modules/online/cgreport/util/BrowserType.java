@@ -1,8 +1,6 @@
 package org.jeecg.modules.online.cgreport.util;
 
 /**
- * 
- * @author  张代浩
  *
  */
 public enum BrowserType {

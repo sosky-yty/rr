@@ -11,8 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * 菜单权限规则 服务类
  * </p>
  *
- * @author huangzhilin
- * @since 2019-04-01
  */
 public interface ISysPermissionDataRuleService extends IService<SysPermissionDataRule> {
 

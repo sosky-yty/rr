@@ -15,8 +15,6 @@ import org.jeecg.common.aspect.annotation.Dict;
  * 菜单权限表
  * </p>
  *
- * @author scott
- * @since 2018-12-21
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

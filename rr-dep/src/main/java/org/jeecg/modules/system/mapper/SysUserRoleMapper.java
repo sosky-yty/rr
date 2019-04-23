@@ -11,8 +11,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 用户角色表 Mapper 接口
  * </p>
  *
- * @author scott
- * @since 2018-12-21
  */
 public interface SysUserRoleMapper extends BaseMapper<SysUserRole> {
 

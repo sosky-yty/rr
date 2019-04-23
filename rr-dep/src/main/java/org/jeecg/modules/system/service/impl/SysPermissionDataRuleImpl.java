@@ -21,8 +21,6 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
  * 菜单权限规则  服务实现类
  * </p>
  *
- * @author huangzhilin
- * @since 2019-04-01
  */
 @Service
 public class SysPermissionDataRuleImpl extends ServiceImpl<SysPermissionDataRuleMapper, SysPermissionDataRule>

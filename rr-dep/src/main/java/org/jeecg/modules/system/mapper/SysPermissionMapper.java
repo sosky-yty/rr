@@ -15,8 +15,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * 菜单权限表 Mapper 接口
  * </p>
  *
- * @author scott
- * @since 2018-12-21
  */
 public interface SysPermissionMapper extends BaseMapper<SysPermission> {
 	/**

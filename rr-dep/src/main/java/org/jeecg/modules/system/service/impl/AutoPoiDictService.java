@@ -17,10 +17,7 @@ import lombok.extern.slf4j.Slf4j;
  *  举例： @Excel(name = "性别", width = 15, dicCode = "sex")
  * 1、导出的时候会根据字典配置，把值1,2翻译成：男、女;
  * 2、导入的时候，会把男、女翻译成1,2存进数据库;
- * 
- * @author：scott 
- * @since：2019-04-09 
- * @version:1.0
+ *
  */
 @Slf4j
 @Service

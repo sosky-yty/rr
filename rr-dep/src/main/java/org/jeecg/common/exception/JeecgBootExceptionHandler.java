@@ -11,9 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 
 /**
  * 异常处理器
- * 
- * @author scott
- * @date 2019
+ *
  */
 @RestControllerAdvice
 @Slf4j

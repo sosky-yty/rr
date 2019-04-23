@@ -40,13 +40,7 @@ import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
 import org.springframework.web.servlet.ModelAndView;
 
-/**
- * @Title: Controller
- * @Description: 系统通告表
- * @author： jeecg-boot
- * @date： 2019-01-02
- * @version： V1.0
- */
+
 @RestController
 @RequestMapping("/sys/annountCement")
 @Slf4j

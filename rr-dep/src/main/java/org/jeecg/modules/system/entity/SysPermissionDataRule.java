@@ -15,8 +15,6 @@ import lombok.experimental.Accessors;
  * 菜单权限规则表
  * </p>
  *
- * @author huangzhilin
- * @since 2019-03-29
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

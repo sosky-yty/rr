@@ -33,8 +33,6 @@ import lombok.extern.slf4j.Slf4j;
 /**
   * 数据权限切面处理类
   *  当被请求的方法有注解PermissionData时,会在往当前request中写入数据权限信息
- * @date 2019年4月10日
- * @Version: 1.0
  */
 @Aspect
 @Component

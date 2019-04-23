@@ -30,9 +30,6 @@ import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 
 /**
- * @author Scott
- * @create 2018-07-12 15:23
- * @desc
  **/
 @Component
 @Slf4j

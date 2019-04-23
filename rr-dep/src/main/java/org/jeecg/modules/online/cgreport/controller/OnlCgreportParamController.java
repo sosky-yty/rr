@@ -29,9 +29,6 @@ import lombok.extern.slf4j.Slf4j;
 /**
  * @Title: Controller
  * @Description: 在线报表配置
- * @author: jeecg-boot
- * @date: 2019-03-08
- * @version: V1.0
  */
 @RestController
 @RequestMapping("/online/cgreport/param")

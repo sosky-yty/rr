@@ -17,9 +17,6 @@ import com.alibaba.fastjson.JSONObject;
  * 
  * @Title:QueryParamUtil
  * @description:动态报表查询条件处理工具
- * @author 赵俊夫
- * @date Jul 5, 2013 10:22:31 PM
- * @version V1.0
  */
 public class CgReportQueryParamUtil{
 	

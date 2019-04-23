@@ -18,9 +18,6 @@ import org.springframework.stereotype.Service;
 
 /**
  * @Description: Excel导出工具类
- * @author: scott
- * @date: 2019-03-21
- * @version: V1.0
  */
 @Service(value = "cgReportExcelService")
 public class CgReportExcelServiceImpl implements CgReportExcelServiceI {

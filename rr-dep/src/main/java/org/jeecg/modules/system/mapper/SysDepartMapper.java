@@ -12,9 +12,7 @@ import java.util.List;
  * <p>
  * 部门 Mapper 接口
  * <p>
- * 
- * @author： Steve
- * @Since：   2019-01-22
+ *
  */
 public interface SysDepartMapper extends BaseMapper<SysDepart> {
 	

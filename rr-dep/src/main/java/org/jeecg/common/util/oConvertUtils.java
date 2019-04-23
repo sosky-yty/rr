@@ -20,8 +20,7 @@ import java.util.regex.Pattern;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * 
- * @author  张代浩
+ *
  *
  */
 public class oConvertUtils {

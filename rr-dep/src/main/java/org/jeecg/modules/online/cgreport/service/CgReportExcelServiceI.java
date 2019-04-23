@@ -8,9 +8,6 @@ import org.apache.poi.hssf.usermodel.HSSFWorkbook;
  * 
  * @Title:CgReportExcelServiceI
  * @description:动态报表excel导出
- * @author scott
- * @date 2019-03-21
- * @version V1.0
  */
 public interface CgReportExcelServiceI{
 	/**

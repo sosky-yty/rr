@@ -13,8 +13,6 @@ import org.jeecg.common.util.oConvertUtils;
 
 /**
  * @Description: 根据不同的数据库，动态生成分页SQL
- * @author scott
- * @date 2019-03-20
  */
 public class SqlUtil {
 

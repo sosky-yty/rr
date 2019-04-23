@@ -20,8 +20,6 @@ import lombok.experimental.Accessors;
  * 角色表
  * </p>
  *
- * @author scott
- * @since 2018-12-19
  */
 @Data
 @EqualsAndHashCode(callSuper = false)

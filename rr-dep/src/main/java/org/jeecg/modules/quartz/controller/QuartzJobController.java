@@ -53,10 +53,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @Title: Controller
- * @Description: 定时任务在线管理 
- * @author： jeecg-boot 
- * @date：     2019-01-02 
- * @version：V1.0
+ * @Description: 定时任务在线管理
  */
 @RestController
 @RequestMapping("/sys/quartzJob")

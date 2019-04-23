@@ -18,9 +18,7 @@ import java.util.Objects;
  * <p>
  * 部门表
  * <p>
- * 
- * @author Steve
- * @Since  2019-01-22
+ *
  */
 @Data
 @TableName("sys_depart")

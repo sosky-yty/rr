@@ -11,9 +11,7 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 /**
  * @Description: 用户管理
- * @author： jeecg-boot
- * @date：   2019-04-22
- * @version： V1.0
+
  */
 @Data
 @TableName("customer")

@@ -12,8 +12,6 @@ import org.jeecg.modules.system.entity.SysDictItem;
  * 字典表 服务类
  * </p>
  *
- * @author zhangweijian
- * @since 2018-12-28
  */
 public interface ISysDictService extends IService<SysDict> {
 

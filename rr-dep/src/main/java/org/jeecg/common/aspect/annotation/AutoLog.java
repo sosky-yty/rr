@@ -10,10 +10,7 @@ import org.jeecg.common.constant.CommonConstant;
 
 /**
  * 系统日志注解
- * 
- * @author scott
- * @email jeecgos@163.com
- * @date 2019年1月14日
+ *
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
